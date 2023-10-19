@@ -1,0 +1,183 @@
+html {
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  padding: 50px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+}
+/* my styles*/
+
+/* General styling for the container */
+.container {
+  width: 40vw;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  height: max-content !important;
+}
+
+/* Header styling */
+.container h1 {
+  width: 100%;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styling for the form */
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the input fields */
+.container form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.container form input:focus {
+  border-color: #007bff;
+}
+
+/* Styling for the buttons */
+.container .btn-s {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .btn-s button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+/* Styling for the submit button */
+.container .btn-s button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.container .btn-s button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the cancel button */
+.container .btn-s button[type="button"] {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.container .btn-s button[type="button"]:hover {
+  background-color: #c0392b;
+}
+
+/*sign Up*/
+.signup-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.signup-form h1 {
+  width: 100%;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-top: 15px;
+}
+
+.signup-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-form input:focus {
+  border-color: #007bff;
+}
+
+.signup-form .error {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.signup-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+/*Nav link CSS*/
+.nav-link-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  width: 100vw !important;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-link-container * {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.nav-link-container *:hover {
+  color: #e74c3c;
+}
